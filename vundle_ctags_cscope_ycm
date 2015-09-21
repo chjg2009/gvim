@@ -15,5 +15,5 @@ a.https://bbuseruploads.s3.amazonaws.com/Haroogan/vim-youcompleteme-for-windows/
 b.https://bbuseruploads.s3.amazonaws.com/Haroogan/vim-youcompleteme-for-windows/downloads/vim-ycm-windows-x86.zip?Signature=bb1fWUb5l7b75sMUW7YyBCp8CqM%3D&Expires=1431910714&AWSAccessKeyId=0EMWEFSGA12Z1HF1TZ82&response-content-disposition=attachment%3B%20filename%3D%22vim-ycm-windows-x86.zip%22
 先将a下载的文件解压到ycm的安装目录下覆盖下载的文件，然后用b下载的ycm解压到ycm安装目录对上面的a进行覆盖。
 说明：ycm需要配套如下两个软件才可以正常使用：python-2.7.7.msi  https://www.python.org/ftp/python/2.7.7/python-2.7.7.msi
-LLVM-3.4-win32.exe http://llvm.org/releases/3.4/LLVM-3.4-win32.exe  在安装上面两个软件的时候将其加入环境变量
+LLVM-3.4-win32.exe http://llvm.org/releases/3.4/LLVM-3.4-win32.exe  在安装上面两个软件的时候将其加入环境变量。在LLVM安装完成后，打开其安装目录将libclang.dll文件复制到ycm安装目录的\YouCompleteMe\python文件夹下。
 
