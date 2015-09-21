@@ -1,7 +1,7 @@
 在windows32下的vundle、ctags、cscope具体安装方法如下：
 1、vundle插件时款非常优秀的插件管理插件。一旦安装成功后，在gvim下管理各种相关插件将非常简便。在此vundle的安装方法通过github实现。详细步骤如下：
 a.在windows32下打开运行输入cmd 然后回车；
-b.在cmd命令窗口内输入：git clone https://github.com/gmarik/vundle "F:\Program Files (x86)\Vim\vimfiles\bundle\vundle"
+b.在cmd命令窗口内输入：git clone https://github.com/gmarik/vundle "D:\Program Files\Vim\vimfiles\bundle\vundle"
 说明：后面的安装路径可根据实际的gvim安装目录进行修改。
 2、ctags安装
 下载ctags:http://nchc.dl.sourceforge.net/project/ctags/ctags/5.8/ctags58.zip
