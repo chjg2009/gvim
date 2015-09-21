@@ -9,4 +9,11 @@ b.在cmd命令窗口内输入：git clone https://github.com/gmarik/vundle "F:\P
 3、cscope安装
 下载cscope:http://ncu.dl.sourceforge.net/project/mslk/Cscope/cscope-15.7/cscope-15.7.zip
 将下载的文件解压到：C:\WINDOWS\system32目录下(或将cscope.exe其所在目录手动添加到环境变量)。
+4、ycm安装说明
+在vundle成功安装收，执行命令PluginInstall,vundle插件将会进行相关插件的安装，当ycm安装完成后，打开其所在目录。下载如下两个已经编译好的插件：
+a.https://bbuseruploads.s3.amazonaws.com/Haroogan/vim-youcompleteme-for-windows/downloads/vim-ycm-9e54390-windows-x86.zip?Signature=1WODtU69h5n65kp4FwTKC%2FY0YUE%3D&Expires=1431909946&AWSAccessKeyId=0EMWEFSGA12Z1HF1TZ82&response-content-disposition=attachment%3B%20filename%3D%22vim-ycm-9e54390-windows-x86.zip%22
+b.https://bbuseruploads.s3.amazonaws.com/Haroogan/vim-youcompleteme-for-windows/downloads/vim-ycm-windows-x86.zip?Signature=bb1fWUb5l7b75sMUW7YyBCp8CqM%3D&Expires=1431910714&AWSAccessKeyId=0EMWEFSGA12Z1HF1TZ82&response-content-disposition=attachment%3B%20filename%3D%22vim-ycm-windows-x86.zip%22
+先将a下载的文件解压到ycm的安装目录下覆盖下载的文件，然后用b下载的ycm解压到ycm安装目录对上面的a进行覆盖。
+说明：ycm需要配套如下两个软件才可以正常使用：python-2.7.7.msi  https://www.python.org/ftp/python/2.7.7/python-2.7.7.msi
+LLVM-3.4-win32.exe http://llvm.org/releases/3.4/LLVM-3.4-win32.exe  在安装上面两个软件的时候将其加入环境变量
 
